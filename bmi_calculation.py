@@ -1,11 +1,11 @@
-print ('👋 Hi there i am you assisstant to start the bmi calculation just type the needed objects.')
+print ('👋 Hi there i am you assisstant to start the bmi calculation just type the needed objects. \n ')
 
-name = input ('👨‍💻 what is your name? ')
-weight = int (input ('👨‍💻 what is your weight? '))
-age = int (input ('👨‍💻 how old are you? '))
-height = float (input ('👨‍💻 how tall are you? (based on meter!!!) '))
+name = input ('👨‍💻 what is your name? \n ')
+weight = int (input ('👨‍💻 what is your weight? \n '))
+age = int (input ('👨‍💻 how old are you? \n '))
+height = float (input ('👨‍💻 how tall are you? (based on meter!!!) \n '))
 
-print ('🧠 calculating on progress...')
+print ('🧠 calculating on progress... \n ')
 
 bmi_calculation = weight / (height ** 2)
 
@@ -22,4 +22,4 @@ elif 35 < weight > 39.9:
 else:
     print ('⚰️ DANGER OVER WEIGHT!!! ', name)
 
-print ('👋 Hi ', name, 'you are ', age, 'years old and your BIM is: ', bmi_calculation,'your weight: ', weight, 'your height: ', height )
+print ('👋 Hi ', name, 'you are ', age, 'years old \n your BIM is: ', bmi_calculation,'your weight: ', weight, 'your height: ', height )
